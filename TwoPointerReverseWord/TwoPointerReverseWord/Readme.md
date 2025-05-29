@@ -22,3 +22,5 @@ A complexidade de espaço também é "linear", ou $O(N)$. Isso indica que a mem�
 **Por quê?**
 * O algoritmo cria um novo array de caracteres (`char[] charArr`) com o mesmo tamanho da string de entrada para realizar as operações.
 * Embora algumas operações sejam feitas "no local", a necessidade de uma cópia inicial da string resulta em um consumo de memória proporcional ao tamanho da entrada.
+
+* ![image](https://github.com/user-attachments/assets/03c0dc28-c084-43e0-b99f-c94e2b209cf4)
