@@ -27,3 +27,6 @@ A complexidade de espaço é "constante", ou $O(1)$. Isso indica que a memória 
 Ao calcular o índice do meio (`mid`) em uma busca binária, a fórmula aparentemente simples `(low + high) / 2` pode causar um **overflow** em linguagens como Java (e C#, C++) se os valores de `low` e `high` forem muito grandes (próximos ao limite máximo de um `int`). Isso ocorre porque a soma `low + high` pode exceder a capacidade do tipo `int` antes da divisão, resultando em um número negativo ou incorreto.
 
 Para evitar esse problema, a maneira recomendada e segura de calcular `mid` é:
+`mid = low + (high - low) / 2;`
+
+![image](https://github.com/user-attachments/assets/d117a530-66e0-4190-8b35-e7b7c74e304f)
